@@ -141,8 +141,6 @@ div.navbarbackground{
   box-shadow: 2px 2px 5px gray;
   background-color: white;
   padding: 15px;
-  border-radius: 5px;
-
 }
 
 .box:nth-child(n) {
