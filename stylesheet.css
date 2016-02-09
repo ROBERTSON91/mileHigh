@@ -8,7 +8,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-/*  outline: green dashed 1px;*/
+  outline: green dashed 1px;
 }
 
 html{
@@ -31,6 +31,16 @@ h1{
   color: black;
 }
 
+.backgroundImage{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  z-index: 10;
+  opacity: .80;
+}
+
 /*------------------------------------*\
               Navbar
 \*------------------------------------*/
@@ -40,7 +50,7 @@ h1{
   left: 50%;      /*Centers*/
   margin-left: -400px; /*Centers*/
   position: fixed; /*Keeps navbar in on top when scrolling*/
-  margin-top: 12px; /*Will move the navbar up and done*/
+  margin-top: 17px; /*Will move the navbar up and done*/
   z-index: 100;
 
 }
@@ -48,12 +58,15 @@ h1{
 /*This is the border for the navbar*/
 #navbar li{
   display: inline;
-  padding: 8px;
   border: 3px solid black;
   background-color: #E6E6E6;
   border-radius: 5px;
   margin: 20px;
   z-index: 100;
+}
+
+#navbar li a{
+  padding: 8px;
 }
 /*This is the link tag for unvisted sites*/
 a:link{
@@ -63,7 +76,7 @@ a:link{
 }
 /*Link tag for visted sites*/
 a:visited{
-  color black;
+  color: black;
   text-decoration: none;
 }
 
@@ -97,6 +110,10 @@ div.navbarbackground{
   padding-bottom: 40px;
 }
 
+/*------------------------------------*\
+           Centers Content
+\*------------------------------------*/
+
 .box-wrap {
   margin: 50px 0;
 }
@@ -108,6 +125,7 @@ div.navbarbackground{
   width: 100%;
   height: 100%;
   max-width: 1000px;
+  z-index: 100;
 }
 
 /*------------------------------------*\
@@ -123,7 +141,8 @@ div.navbarbackground{
   box-shadow: 2px 2px 5px gray;
   background-color: white;
   padding: 15px;
-  
+  border-radius: 5px;
+
 }
 
 .box:nth-child(n) {
