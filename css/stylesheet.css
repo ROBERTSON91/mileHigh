@@ -188,12 +188,21 @@ div.navbarbackground{
 /*------------------------------------*\
               ¡HOME
 \*------------------------------------*/
-
+.intro{
+  text-align: center;
+  padding-top: 100px;
+}
 
 /*------------------------------------*\
             ¡DESTINATIONS
 \*------------------------------------*/
-
+.us-map img{
+  position: relative;
+  width: 70%;
+  padding-top: 50px;
+  display: block;
+  margin: auto;
+}
 
 /*------------------------------------*\
               ¡FLEET
