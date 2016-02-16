@@ -204,6 +204,33 @@ div.navbarbackground{
   margin: auto;
 }
 
+.accordion{
+  width: 100%;
+  height: auto;
+  float: center;
+  box-shadow: 2px 2px 5px gray;
+  background-color: white;
+  padding: 15px;
+}
+
+ui-accordion{
+  background-color: white;
+}
+
+ui-accordion-header{
+  background-color: white;
+
+}
+
+ui-accordion-content{
+  background-color: white;
+
+}
+
+h3{
+  text-align: center;
+}
+
 /*------------------------------------*\
               ¡FLEET
 \*------------------------------------*/

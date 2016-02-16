@@ -1,3 +1,5 @@
-$(document).ready(function() {
-    $('#map').usmap({});
+$(function() {
+  $(".accordion").accordion({
+    collapsible: true
   });
+});
