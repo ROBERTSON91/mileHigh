@@ -17,7 +17,7 @@ html{
 
 /*The main body of the Webpage*/
 body{
-  background-color: #e5ffff;
+  background-color: #EBDDCB;
   width: auto;
   font-family: sans-serif;
   height: 100%;
@@ -36,7 +36,7 @@ h1{
   top: 0;
   left: 0;
   z-index: 10;
-  opacity: .45;
+  opacity: .35;
 }
 
 .backgroundImage img{
@@ -62,7 +62,7 @@ h1{
 #navbar li{
   display: inline;
   border: 3px solid black;
-  background-color: #E6E6E6;
+  background-color: #CAAF69;
   border-radius: 5px;
   margin: 20px;
   z-index: 100;
@@ -90,7 +90,7 @@ a:hover{
 }
 
 div.navbarbackground{
-  background-color: #669900;
+  background-color: #744C20;
   position: fixed;
   width: 150%;
   height: 50px;
@@ -202,6 +202,7 @@ div.navbarbackground{
   padding-top: 50px;
   display: block;
   margin: auto;
+  padding-bottom: 20px;
 }
 
 .accordion{
@@ -209,21 +210,20 @@ div.navbarbackground{
   height: auto;
   float: center;
   box-shadow: 2px 2px 5px gray;
-  background-color: white;
+  background-color: #B7A784;
   padding: 15px;
 }
 
 ui-accordion{
-  background-color: white;
 }
 
 ui-accordion-header{
-  background-color: white;
+  color: #B7A784;
 
 }
 
 ui-accordion-content{
-  background-color: white;
+  color: #B7A784;
 
 }
 
