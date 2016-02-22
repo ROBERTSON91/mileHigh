@@ -62,7 +62,7 @@ h1{
   margin-left: -400px; /*Centers*/
   position: fixed; /*Keeps navbar in on top when scrolling*/
   margin-top: 17px; /*Will move the navbar up and done*/
-  z-index: 100;
+  z-index: 140;
 
 }
 
@@ -73,7 +73,7 @@ h1{
   background-color: #CAAF69;
   border-radius: 5px;
   margin: 20px;
-  z-index: 100;
+  z-index: 140;
 }
 
 #navbar li a{
@@ -104,14 +104,14 @@ div.navbarbackground{
   height: 50px;
   left: -500;
   top: 0px;
-  z-index: 90;
+  z-index: 130;
 }
 
 .title{
   left: 30px;
   top: -30px;
   position: fixed;
-  z-index: 100;
+  z-index: 140;
 }
 
 .title img{
@@ -149,6 +149,8 @@ div.navbarbackground{
 \*------------------------------------*/
 .box-wrap {
   margin: 50px 0;
+  z-index: 80;
+
 }
 
 .box {
@@ -158,16 +160,21 @@ div.navbarbackground{
   box-shadow: 2px 2px 5px gray;
   background-color: white;
   padding: 15px;
+  z-index: 60;
 }
 
 .box:nth-child(n) {
   margin-bottom: 5%;
   margin-right: 2%;
+  z-index: 60;
+
 }
 
 .box:nth-child(3n) {
   margin-right: 0;
   margin-bottom: 0;
+  z-index: 60;
+
 }
 
 .box img {
@@ -176,6 +183,8 @@ div.navbarbackground{
   width: 100%;
   height: 200px;
   border: solid 1px black;
+  z-index: 60;
+
 }
 
 .box-title{
@@ -191,6 +200,38 @@ div.navbarbackground{
   height: 25px;
   text-align: center;
   width: 75px;
+}
+div.headquarters{
+    text-align: left;
+    float: left;
+    margin-top: 50px;
+    /*margin-left: 125px;*/
+}
+div.services{
+    align-content: left;
+    float: left;
+    margin-top: 300px;
+    margin-left: -275px;
+}
+div.relations{
+    text-align: left;
+    float: right;
+    margin-top: 50px;
+    margin-right: 50px;
+}
+div.cousel{
+    text-align: left;
+    float:right;
+    margin-top: 300px;
+    margin-right: -300px;
+}
+div.contact{
+    margin-top: 5px;
+    text-align: left;
+    margin-left: 50px;
+}
+div.para{
+    text-align: center;
 }
 
 /*------------------------------------*\
@@ -213,6 +254,12 @@ div.navbarbackground{
   padding-bottom: 20px;
 }
 
+.des p{
+  text-align: center;
+  font: 20px arial bold;
+  padding-bottom: 20px;
+}
+
 .accordion{
   width: 100%;
   height: auto;
@@ -223,6 +270,7 @@ div.navbarbackground{
 }
 
 ui-accordion{
+
 }
 
 ui-accordion-header{
@@ -239,6 +287,15 @@ h3{
   text-align: center;
 }
 
+.west ul{
+  font-size: 20px;
+}
+
+.west li{
+  display: inline;
+}
+
+
 /*------------------------------------*\
               ¡FLEET
 \*------------------------------------*/
@@ -252,3 +309,6 @@ h3{
 /*------------------------------------*\
               ¡CONTACT US
 \*------------------------------------*/
+.contact{
+  text-align: center;
+}
