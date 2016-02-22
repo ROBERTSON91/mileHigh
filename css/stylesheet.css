@@ -5,6 +5,7 @@ CAAF69
 745832
 744C20*/
 
+
 /*------------------------------------*\
               ¡GENERAL
 \*------------------------------------*/
@@ -18,13 +19,13 @@ CAAF69
   padding: 0;
   outline: green dashed 1px;
 }
-
-html{
+html {
   height: 100%;
 }
 
 /*The main body of the Webpage*/
-body{
+
+body {
   background-color: #EBDDCB;
   width: auto;
   font-family: sans-serif;
@@ -33,21 +34,20 @@ body{
 }
 
 /*Main header of the Webpage*/
-h1{
+
+h1 {
   text-align: center;
   font-size: 45px;
   color: black;
 }
-
-.backgroundImage{
+.backgroundImage {
   position: fixed;
   top: 0;
   left: 0;
   z-index: 10;
   opacity: .35;
 }
-
-.backgroundImage img{
+.backgroundImage img {
   width: 100%;
   height: auto;
 }
@@ -56,18 +56,24 @@ h1{
               Navbar
 \*------------------------------------*/
 
-/*unordered list for navbar's position*/
-#navbar ul{
-  left: 50%;      /*Centers*/
-  margin-left: -400px; /*Centers*/
-  position: fixed; /*Keeps navbar in on top when scrolling*/
-  margin-top: 17px; /*Will move the navbar up and done*/
-  z-index: 140;
 
+/*unordered list for navbar's position*/
+
+#navbar ul {
+  left: 50%;
+  /*Centers*/
+  margin-left: -400px;
+  /*Centers*/
+  position: fixed;
+  /*Keeps navbar in on top when scrolling*/
+  margin-top: 17px;
+  /*Will move the navbar up and done*/
+  z-index: 140;
 }
 
 /*This is the border for the navbar*/
-#navbar li{
+
+#navbar li {
   display: inline;
   border: 3px solid black;
   background-color: #CAAF69;
@@ -75,29 +81,32 @@ h1{
   margin: 20px;
   z-index: 140;
 }
-
-#navbar li a{
+#navbar li a {
   padding: 8px;
 }
+
 /*This is the link tag for unvisted sites*/
-a:link{
+
+a:link {
   color: black;
   text-decoration: none;
   z-index: 100;
 }
+
 /*Link tag for visted sites*/
-a:visited{
+
+a:visited {
   color: black;
   text-decoration: none;
 }
 
 /* link tag when you hover over the link*/
-a:hover{
+
+a:hover {
   color: green;
   text-decoration: none;
 }
-
-div.navbarbackground{
+div.navbarbackground {
   background-color: #744C20;
   position: fixed;
   width: 150%;
@@ -106,21 +115,20 @@ div.navbarbackground{
   top: 0px;
   z-index: 130;
 }
-
-.title{
+.title {
   left: 30px;
   top: -30px;
   position: fixed;
   z-index: 140;
 }
-
-.title img{
+.title img {
   width: 165px;
   height: auto;
 }
 
 /*color and shape of the header which is currently red*/
-#header{
+
+#header {
   position: relative;
   top: 50px;
   padding-bottom: 40px;
@@ -133,7 +141,6 @@ div.navbarbackground{
 .box-wrap {
   margin: 50px 0;
 }
-
 .squeeze {
   position: relative;
   margin: 0 auto;
@@ -147,12 +154,11 @@ div.navbarbackground{
 /*------------------------------------*\
                 ¡BOX
 \*------------------------------------*/
+
 .box-wrap {
   margin: 50px 0;
   z-index: 80;
-
 }
-
 .box {
   width: 32%;
   height: auto;
@@ -162,21 +168,16 @@ div.navbarbackground{
   padding: 15px;
   z-index: 60;
 }
-
 .box:nth-child(n) {
   margin-bottom: 5%;
   margin-right: 2%;
   z-index: 60;
-
 }
-
 .box:nth-child(3n) {
   margin-right: 0;
   margin-bottom: 0;
   z-index: 60;
-
 }
-
 .box img {
   display: block;
   margin: 0 0 15px;
@@ -184,16 +185,15 @@ div.navbarbackground{
   height: 200px;
   border: solid 1px black;
   z-index: 60;
-
 }
-
-.box-title{
+.box-title {
   text-align: center;
 }
 
 /*------------------------------------*\
               ¡BUTTONS
 \*------------------------------------*/
+
 .btn {
   background: #FFF;
   border: solid 1px #CCC;
@@ -201,43 +201,44 @@ div.navbarbackground{
   text-align: center;
   width: 75px;
 }
-div.headquarters{
-    text-align: left;
-    float: left;
-    margin-top: 50px;
-    /*margin-left: 125px;*/
+div.headquarters {
+  text-align: left;
+  float: left;
+  margin-top: 50px;
+  /*margin-left: 125px;*/
 }
-div.services{
-    align-content: left;
-    float: left;
-    margin-top: 300px;
-    margin-left: -275px;
+div.services {
+  align-content: left;
+  float: left;
+  margin-top: 300px;
+  margin-left: -275px;
 }
-div.relations{
-    text-align: left;
-    float: right;
-    margin-top: 50px;
-    margin-right: 50px;
+div.relations {
+  text-align: left;
+  float: right;
+  margin-top: 50px;
+  margin-right: 50px;
 }
-div.cousel{
-    text-align: left;
-    float:right;
-    margin-top: 300px;
-    margin-right: -300px;
+div.cousel {
+  text-align: left;
+  float: right;
+  margin-top: 300px;
+  margin-right: -300px;
 }
-div.contact{
-    margin-top: 5px;
-    text-align: left;
-    margin-left: 50px;
+div.contact {
+  margin-top: 5px;
+  text-align: left;
+  margin-left: 50px;
 }
-div.para{
-    text-align: center;
+div.para {
+  text-align: center;
 }
 
 /*------------------------------------*\
               ¡HOME
 \*------------------------------------*/
-.intro{
+
+.intro {
   text-align: center;
   padding-top: 100px;
 }
@@ -245,7 +246,8 @@ div.para{
 /*------------------------------------*\
             ¡DESTINATIONS
 \*------------------------------------*/
-.us-map img{
+
+.us-map img {
   position: relative;
   width: 70%;
   padding-top: 50px;
@@ -253,14 +255,12 @@ div.para{
   margin: auto;
   padding-bottom: 20px;
 }
-
-.des p{
+.des p {
   text-align: center;
   font: 20px arial bold;
   padding-bottom: 20px;
 }
-
-.accordion{
+.accordion {
   width: 100%;
   height: auto;
   float: center;
@@ -268,33 +268,22 @@ div.para{
   background-color: #B7A784;
   padding: 15px;
 }
-
-ui-accordion{
-
-}
-
-ui-accordion-header{
+ui-accordion {}
+ui-accordion-header {
   color: #B7A784;
-
 }
-
-ui-accordion-content{
+ui-accordion-content {
   color: #B7A784;
-
 }
-
-h3{
+h3 {
   text-align: center;
 }
-
-.west ul{
+.west ul {
   font-size: 20px;
 }
-
-.west li{
+.west li {
   display: inline;
 }
-
 
 /*------------------------------------*\
               ¡FLEET
@@ -309,6 +298,7 @@ h3{
 /*------------------------------------*\
               ¡CONTACT US
 \*------------------------------------*/
-.contact{
+
+.contact {
   text-align: center;
 }
