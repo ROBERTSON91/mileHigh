@@ -17,7 +17,7 @@ CAAF69
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  outline: green dashed 1px;
+  /*outline: green dashed 1px;*/
 }
 html {
   height: 100%;
@@ -50,6 +50,25 @@ h1 {
 .backgroundImage img {
   width: 100%;
   height: auto;
+}
+
+#astrix{
+  padding-top: 40px;
+  padding-bottom: 40px;
+  text-align: center;
+}
+
+.desciption{
+  text-align: center;
+  padding: 40px 0px 40px 0px;
+  font-size: 20px;
+}
+
+.contact-us{
+  padding: 40px 0px 40px 0px;
+  font-size: 30px;
+  text-align: center;
+  position: relative;
 }
 
 /*------------------------------------*\
@@ -126,12 +145,13 @@ div.navbarbackground {
   height: auto;
 }
 
-/*color and shape of the header which is currently red*/
+/*color and shape of the header*/
 
 #header {
   position: relative;
   top: 50px;
   padding-bottom: 40px;
+  padding-top: 40px;
 }
 
 /*------------------------------------*\
@@ -201,11 +221,96 @@ div.navbarbackground {
   text-align: center;
   width: 75px;
 }
+
+/*------------------------------------*\
+              ¡HOME
+\*------------------------------------*/
+
+.intro{
+  text-align: center;
+  padding: 40px 0 40px 0;
+  font-size: 30px;
+}
+.homeBanner img{
+  width: 100%;
+  opacity: .70;
+  position: absolute;
+  text-align: center;
+  margin-top: -30px;
+
+}
+.homeBanner{
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*------------------------------------*\
+            ¡DESTINATIONS
+\*------------------------------------*/
+
+.us-map img {
+  position: relative;
+  width: 50%;
+  padding-top: 50px;
+  display: block;
+  margin: auto;
+  padding-bottom: 20px;
+}
+.des p {
+  text-align: center;
+  font: 20px arial bold;
+  padding-bottom: 20px;
+}
+.accordion {
+  width: 100%;
+  height: auto;
+  float: center;
+  box-shadow: 2px 2px 5px gray;
+  background-color: #B7A784;
+  padding: 15px;
+  padding-bottom: 40px;
+}
+ui-accordion {
+
+}
+ui-accordion-header {
+  color: #B7A784;
+}
+ui-accordion-content {
+  color: #B7A784;
+}
+h3 {
+  text-align: center;
+}
+.west ul {
+  font-size: 15px;
+}
+.midWest ul {
+  font-size: 15px;
+}
+.south ul {
+  font-size: 15px;
+}
+.northEast ul {
+  font-size: 15px;
+}
+.northEast{
+  padding-bottom: 40px;
+}
+
+/*------------------------------------*\
+              ¡CONTACT US
+\*------------------------------------*/
+
+.contact {
+  text-align: center;
+}
+
 div.headquarters {
   text-align: left;
   float: left;
   margin-top: 50px;
-  /*margin-left: 125px;*/
 }
 div.services {
   align-content: left;
@@ -232,73 +337,5 @@ div.contact {
 }
 div.para {
   text-align: center;
-}
-
-/*------------------------------------*\
-              ¡HOME
-\*------------------------------------*/
-
-.intro {
-  text-align: center;
-  padding-top: 100px;
-}
-
-/*------------------------------------*\
-            ¡DESTINATIONS
-\*------------------------------------*/
-
-.us-map img {
-  position: relative;
-  width: 70%;
-  padding-top: 50px;
-  display: block;
-  margin: auto;
-  padding-bottom: 20px;
-}
-.des p {
-  text-align: center;
-  font: 20px arial bold;
-  padding-bottom: 20px;
-}
-.accordion {
-  width: 100%;
-  height: auto;
-  float: center;
-  box-shadow: 2px 2px 5px gray;
-  background-color: #B7A784;
-  padding: 15px;
-}
-ui-accordion {}
-ui-accordion-header {
-  color: #B7A784;
-}
-ui-accordion-content {
-  color: #B7A784;
-}
-h3 {
-  text-align: center;
-}
-.west ul {
-  font-size: 20px;
-}
-.west li {
-  display: inline;
-}
-
-/*------------------------------------*\
-              ¡FLEET
-\*------------------------------------*/
-
-
-/*------------------------------------*\
-          ¡TRANSPORTATION
-\*------------------------------------*/
-
-
-/*------------------------------------*\
-              ¡CONTACT US
-\*------------------------------------*/
-
-.contact {
-  text-align: center;
+  margin-top: 40px;
 }
