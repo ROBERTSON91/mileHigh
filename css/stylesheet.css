@@ -53,9 +53,10 @@ h1 {
 }
 
 #astrix{
-  padding-top: 40px;
+  padding-top: 20px;
   padding-bottom: 40px;
   text-align: center;
+  display: block;
 }
 
 .desciption{
@@ -65,16 +66,17 @@ h1 {
 }
 
 .contact-us{
-  padding: 40px 0px 40px 0px;
+  padding: 20px 0px 40px 0px;
   font-size: 30px;
   text-align: center;
-  position: relative;
+  position: static;
+  bottom: 0px;
+  display: block;
 }
 
 /*------------------------------------*\
               Navbar
 \*------------------------------------*/
-
 
 /*unordered list for navbar's position*/
 
@@ -232,12 +234,12 @@ div.navbarbackground {
   font-size: 30px;
 }
 .homeBanner img{
+  position: relative;
   width: 100%;
-  opacity: .70;
-  position: absolute;
-  text-align: center;
-  margin-top: -30px;
-
+  padding-top: 50px;
+  display: block;
+  margin: auto;
+  opacity: .5;
 }
 .homeBanner{
   position: relative;
